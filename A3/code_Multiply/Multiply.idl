@@ -1,0 +1,12 @@
+/**
+ *
+ * @author imed
+ */
+module MultiplyApp
+{
+  interface Multiply
+  {
+    long multiply(in long a,in long b);
+    oneway void shutdown();
+    };
+};
